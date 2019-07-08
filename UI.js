@@ -12,7 +12,7 @@ class UI {
     }
 
     paint(weather) {
-        this.location.textContent = weather.cod;
+        this.location.textContent = weather.name;
         
         
     }
